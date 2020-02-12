@@ -26,7 +26,7 @@ body{
 }
 
 .container-sheet img{
-  border: 8px solid blue;
+  border: 8px solid greenyellow;
   border-radius: 50%;
   position: absolute;
   margin-top: -230px;
