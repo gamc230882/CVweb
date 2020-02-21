@@ -1,18 +1,19 @@
 body{
   background-color: rgb(81, 185, 245);
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  max-width: 100%;
+  
 }
 
 
 .container{
   background: white;
   margin-top: 20px;
-  box-shadow: 0px 0px 10px 5px #909090;
-  position: relative;
+  box-shadow: 0px 0px 10px 5px #909090; 
   padding: 20px;
-  width: 90%;
-  margin-left: 45px;
-  margin-right: 45px;
+  max-width: 100%;
+  margin-left: 25px;
+  margin-right: 25px;
 
 
 }
@@ -25,19 +26,9 @@ body{
 
 .container-sheet li{
   list-style: none;
+  padding: 5px;
   
 }
-
-.container-sheet img{
-  border: 8px solid rgb(81, 185, 245);
-  border-radius: 50%;
-  position: absolute;
-  margin-top: -225px;
-  margin-left: 800px;
-  padding: 3px
-}
-
-
 
 .title-principal{
   background: blue;
@@ -50,6 +41,16 @@ body{
   /* border: 2px solid black;] */
   box-shadow: 0px 0px 10px 2px #909090;
 
+}
+
+img{
+  border: 8px solid rgb(81, 185, 245);
+  border-radius: 50%;
+  position: absolute;
+  top: 151px;
+  right: 152px;
+  height: 70%;
+  width: 30vw;
 }
 
 .title{
@@ -81,10 +82,11 @@ body{
 line-height: 0;
 font-size: 18px;
 display: flex;
-margin-left:150px;
+/* margin-left:150px; */
 margin-right: 50px;
 margin-top: 45px;
 }
+
 
 
 .Exp-laboral{
@@ -117,3 +119,21 @@ box-shadow: 0px 0px 10px 1px #909090;
   
 }
 
+.icon a{
+  background: rgb(81, 185, 245);
+  width: 80px;
+  height: 80px;
+  
+
+}
+
+.container-icons{
+  background: blue;
+  margin-top: 20px;
+  box-shadow: 0px 0px 10px 5px #909090; 
+  padding: 20px;
+  max-width: 100%;
+  margin-left: 25px;
+  margin-right: 25px;
+
+}
