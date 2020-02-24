@@ -1,6 +1,8 @@
 body{
   background-color: rgb(81, 185, 245);
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  max-width: 100%;
+  
 }
 
 .container-icons{
@@ -43,10 +45,11 @@ body{
   background: white;
   margin-top: 20px;
   box-shadow: 0px 0px 10px 5px #909090; 
-  /* max-width: 100%; */
-  /* max-height: 100%; */
-  padding: 10px 40px;
-  margin: 25px 45px;
+  padding: 20px;
+  max-width: 100%;
+  margin-left: 25px;
+  margin-right: 25px;
+
 }
 
 .container-sheet{
@@ -61,9 +64,6 @@ body{
 
 .container-sheet li{
   list-style: none;
-  font-size: 24px;
-  /* max-width: 50%; */
-
 }
 
 .title-principal{
@@ -87,6 +87,16 @@ img{
   max-height: 30%;
   max-width: 300px;
   margin-right: 100px;
+}
+
+img{
+  border: 8px solid rgb(81, 185, 245);
+  border-radius: 50%;
+  position: absolute;
+  top: 151px;
+  right: 152px;
+  height: 70%;
+  width: 30vw;
 }
 
 .title{
@@ -120,22 +130,9 @@ img{
 line-height: 0;
 font-size: 18px;
 display: flex;
-width: 100%;
 
 }
 
-.cursos p{
-}
-
-.cursos li{
-  max-width: 50%;
-  
-}
-
-ul{
-  padding: 0;
-  justify-content: center;
-}
 
 
 .Exp-laboral{
@@ -167,3 +164,21 @@ box-shadow: 0px 0px 10px 1px #909090;
  width:100% ;  
 }
 
+.icon a{
+  background: rgb(81, 185, 245);
+  width: 80px;
+  height: 80px;
+  
+
+}
+
+.container-icons{
+  background: blue;
+  margin-top: 20px;
+  box-shadow: 0px 0px 10px 5px #909090; 
+  padding: 20px;
+  max-width: 100%;
+  margin-left: 25px;
+  margin-right: 25px;
+
+}
