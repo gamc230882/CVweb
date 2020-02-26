@@ -1,14 +1,14 @@
 body{
   background-color: rgb(81, 185, 245);
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 0px;
+  margin: 0px;
 }
 
 .container-icons{
   background-color: rgb(81, 185, 245);
   margin-top: 20px;
   box-shadow: 0px 0px 10px 5px #909090; 
-  /* max-width: 100%; */
-  /* max-height: 100%; */
   padding: 10px 40px;
   margin: 25px 45px;
 }
@@ -22,9 +22,10 @@ body{
   border-radius: 10px;
   margin-bottom: 40px;
 }
+
 .contact ul{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   list-style: none;
   padding-left: 35%;
   padding-right: 35%;
@@ -36,59 +37,56 @@ body{
   color: white;
   border-radius: 20px;
   box-shadow: 0px 0px 3px 2px #909090;
-
+  margin: 20px;
 }
 
 .container{
   background: white;
   margin-top: 20px;
   box-shadow: 0px 0px 10px 5px #909090; 
-  /* max-width: 100%; */
-  /* max-height: 100%; */
+  max-height: 100%;
   padding: 10px 40px;
-  margin: 25px 45px;
-}
+  margin: 25px 45px; 
+  width: 88%;
+} 
 
 .container-sheet{
   font-size: 18PX;  
   line-height: 1.5;
-  width: 100%;
   display: flex;
-  justify-content: space-between;
-  /* position: relative; */
-  margin: 25px 45px;
+  margin-top: 25px;
+  width: 100%;
 }
 
-.container-sheet li{
+.container-sheet  li{
   list-style: none;
-  font-size: 24px;
-  /* max-width: 50%; */
-
+  font-size: 20px;
+  max-width: 100%;
 }
+
 
 .title-principal{
   background: blue;
   color: yellow ;
   text-align: center;
   padding: 25px;
-  font-size: 40px;
+  font-size: 45px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: 800;
-  /* border: 2px solid black;] */
   box-shadow: 0px 0px 10px 2px #909090;
   border-radius: 10PX;
-
 }
 
 img{
   border: 8px solid rgb(81, 185, 245);
   border-radius: 50%;
   /* position: absolute; */
-  max-height: 30%;
-  max-width: 300px;
-  margin-right: 100px;
-}
+  width: 300px;
+  height: 300px;
+  max-height: 50%;
+  margin-left: 15%;
 
+}
 .title{
   background: blue;
   color: white ;
@@ -102,57 +100,57 @@ img{
   height: 15px;
   font-style: italic;
   border-radius: 10PX;
-
+  margin-bottom: 30px;
 }
 
 .container p{
-  font-size: 18PX;  
-  padding: 15px 55px;
+  /* padding: 15px 55px; */
   line-height: 1.5;
-  margin-right: 90px;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.5;
   margin-bottom: 25PX;
   margin-top: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .cursos{
-line-height: 0;
-font-size: 18px;
-display: flex;
-width: 100%;
-
-}
-
-.cursos p{
-}
-
-.cursos li{
-  max-width: 50%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 100px;
   
 }
 
-ul{
-  padding: 0;
-  justify-content: center;
+.cursos li{
+  font-size: 20px;
 }
+
+.contenedor-cursos{
+  padding-left: 80px;
+  width: 50%;
+} 
+.cursos p{
+  font-size: 20px;
+}
+
 
 
 .Exp-laboral{
   font-size: 18PX;  
-  padding: 10px 55px;
+  padding: 0px 55px;
   line-height: 1.5;
-  margin-right: 90px;
-  font-size: 18px;
-  line-height: 1.5;
-   
+  margin-right: 45px;
+  margin-left: 45px;
+  font-size: 20px;
+  line-height: 1.5;   
 }
- 
+
 .empresa{
-background: rgb(81, 185, 245);
-border-radius: 5px;
-border: 1px solid #909090;
-box-shadow: 0px 0px 10px 1px #909090;
+  background: rgb(81, 185, 245);
+  border-radius: 5px;
+  border: 1px solid #909090;
+  box-shadow: 0px 0px 10px 1px #909090;
+  margin-top: 0px;
 }
 
 .empresa strong{
@@ -160,10 +158,241 @@ box-shadow: 0px 0px 10px 1px #909090;
   font-weight: 800;
 }
 
-
 .Exp-laboral ol{
-  padding: 0 ;
-  margin-top: 45px;
- width:100% ;  
+  margin-top: 25px;
+  width:100% ; 
+  padding: 0 px;
 }
 
+
+@media screen and (max-width: 1024px){
+img{
+margin-left: 0;
+}
+.container{
+  width: 83.5%;
+}
+.title-cv{
+  font-size: 35px;
+}
+.title-principal{
+  font-size: 35px;
+}
+.icon a{
+  margin: 15px;
+}
+.container p{
+  font-size: 18px;
+}
+.cursos{
+  padding-left: 50px;
+}
+.cursos lI{
+  font-size: 18px;
+
+}
+.cursos p{
+  font-size: 18px;
+}
+.Exp-laboral{
+  font-size: 18PX;  
+  padding: 0px;
+  margin-right: 45px;
+  margin-left: 45px;
+  padding-right: 20PX;
+}
+}
+@media screen and (max-width: 768px){
+img{
+  margin-left: 5%;
+}
+.container{
+  width: 87%;
+  padding: 10px 0;
+  padding-right: 15px;
+}
+.title-cv{
+  font-size: 30px;
+}
+.title-principal{
+  font-size: 30px;
+}
+.title-principal{
+  margin-left: 15px;
+}
+.title{
+  margin-left: 15px;
+}
+.icon a{
+  margin: 10px;
+}
+.container p{
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 18px;
+}
+.container-sheet li{
+  font-size: 18px;
+}
+.cursos{
+  padding: 0 10px;
+}
+.cursos{
+  padding-left: 0px;
+}
+.cursos lI{
+  font-size: 18px;
+
+}
+.contenedor-cursos p{
+  font-size: 16PX;
+}
+.empresa{
+  /* margin-top: -5px; */
+}
+.container-icons{
+  margin-bottom: 10px;
+}
+}
+
+@media screen and (max-width: 480px){
+.container{
+  padding: 10px 0px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 0px;
+  width: 98%;
+  box-shadow: 0px 0px 3px 1px #909090;
+}
+.container-icons{
+  /* margin: 10px 0px; */
+  padding: 10px 0px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 0px;
+  width: 98%;
+}
+.container p{
+  font-size: 1em;
+  padding-left: 25px;
+  margin-bottom: 0PX;
+}
+.contenedor-cursos li{
+  font-size: .9em;
+}
+.contenedor-cursos p{
+  padding-left: 0px;
+}
+.contenedor-cursos{
+  padding-left: 50px;
+
+}
+.icon a{
+  padding: 10px;
+  margin: 10px;
+  font-size: 1.5em;
+}
+img{
+  height: 100%;
+  width: 39%;
+  margin-left: 0px;
+}
+.container-sheet{
+  width: 97%;
+}
+.container-sheet ol{
+  padding-left: 20px;
+}
+.container-sheet li{
+  font-size: .8em;
+
+}
+.title-principal{
+margin-right: 15px;
+font-size: 1.5em;
+}
+.title-cv{
+  font-size: 1.5em;
+}
+.title{
+  margin-right: 15px;
+}
+.Exp-laboral{
+  font-size: 1em;  
+}
+.cursos{
+  font-size: 1em;
+}
+.empresa strong {
+  font-size: 1.2em;
+}
+
+@media screen and (max-width: 320px){
+.container{
+  padding: 10px 0px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 0px;
+  width: 97%;
+  box-shadow: 0;
+  box-shadow: 0px 0px 3px 1px #909090;
+
+}
+.container-icons{
+  padding: 10px 0px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 0px;
+  width: 97%;
+
+}
+.icon a{
+  padding: 10px;
+  margin: 10px;
+  font-size: 1.2em;
+}
+img{
+  height: 100%;
+  width: 39%;
+  margin-left: 0px;
+}
+.container-sheet{
+  width: 97%;
+}
+.container-sheet ol{
+  padding-left: 20px;
+}
+.container-sheet li{
+  font-size: .6em;  
+}
+.title-principal{
+margin-right: 15px;
+font-size: 1em;
+}
+.title-cv{
+  font-size: 1.2em;
+}
+.container p{
+  font-size: .9em;
+  padding-left: 10px;
+  padding-right: 0;
+}
+.Exp-laboral ol{
+  font-size: .9em;
+  padding-left: 0px;
+}
+.Exp-laboral{
+  margin-left:40px ;
+  margin-right: 40px;
+  padding-right: 0px;
+}
+.title{
+  font-size: 1.3em;
+  padding: 15px;
+  margin-bottom: 12px;
+}
+}
